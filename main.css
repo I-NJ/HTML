@@ -2,6 +2,30 @@ body{
     background-color: grey;
 }
 
+.topbar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1F0101;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.topbarlogin{
+    position: fixed;
+    right: 0%;
+    padding-right: 30px;
+}
+
+.topbar p:hover{
+    color : red;
+    text-decoration: wavy;
+}
+
 .main{
     display: flex;
     align-items: center;
@@ -42,4 +66,10 @@ input.box:hover{
     display: flex;
     align-items: center;
     justify-content: center ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border: 1px red solid;
 }
