@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT VTU (STUDENT+)>
+<!ELEMENT STUDENT (USN,NAME,COLLEGE,BRANCH,YOJ,EMAIL)>
+<!ELEMENT USN(#PCDATA)>
+<!ELEMENT NAME(#PCDATA)>
+<!ELEMENT COLLEGE(#PCDATA)>
+<!ELEMENT BRANCH(#PCDATA)>
+<!ELEMENT YOJ(#PCDATA)>
+<!ELEMENT EMAIL(#PCDATA)>
+
+<!ENTITY Ise "Information science engineering">
+<!ENTITY Ise "Computer science engineering">
+<!ENTITY Ise "Electronics and communication engineering">
+<!ENTITY Ise "New horizon college of engineering">

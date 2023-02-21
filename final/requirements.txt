@@ -1,0 +1,8 @@
+install browserify (output into bundle.js)
+install axios and specify path in searchresultspage as it is not bundelable
+install cheerio
+
+testall.js is the script
+index.html is mainpage
+searchresultspage is results page
+add login page from nikhil's laptop

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ex10stu.xsl"?>
+
+<VTU>
+    <STUDENT>
+        <USN>1NH20IS096</USN>
+        <NAME>Niranjan J Gowda</NAME>
+        <COLLEGE>NHCE</COLLEGE>
+        <BRANCH>ISE</BRANCH>
+        <YOJ>2020</YOJ>
+        <EMAIL>ajith@gmail.com</EMAIL>
+    </STUDENT>
+    <STUDENT>
+        <USN>1NH20IS096</USN>
+        <NAME>Niranjan J Gowda</NAME>   
+        <COLLEGE>NHCE</COLLEGE>
+        <BRANCH>ISE</BRANCH>
+        <YOJ>2020</YOJ>
+        <EMAIL>ajith@gmail.com</EMAIL>
+    </STUDENT>
+    <STUDENT>
+        <USN>1NH20IS096</USN>
+        <NAME>Niranjan J Gowda</NAME>
+        <COLLEGE>NHCE</COLLEGE>
+        <BRANCH>ISE</BRANCH>
+        <YOJ>2020</YOJ>
+        <EMAIL>ajith@gmail.com</EMAIL>
+    </STUDENT>
+</VTU>

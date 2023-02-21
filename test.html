@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Sample Website</title>
+  </head>
+  <body>
+    <input type="url" id="url"></body><br>
+    <button onclick="getPrice()">search </button>
+    <div id="price"></div>
+    <script>
+      async function getPrice() {
+        const url  = document.getElementById("url").value;
+        console.log(url);
+        const response = await fetch(url);
+        const html = await response.text();
+        const priceRegex = /<span class="a-offscreen">(\$[0-9,.]+)<\/span>/;
+        const match = html.match(priceRegex);
+        const price = match ? match[1] : null;
+
+        const priceElement = document.getElementById('price');
+        priceElement.innerHTML = price;
+}
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Shopper's Search</title>
+    <style>
+    .topbar{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        background-color: #1F0101;
+        color: white;
+        padding-left: 20px;
+        font-size: 20px;
+        z-index: 10;
+        align-items: center;
+    }
+
+    .topbarlogin{
+        text-decoration: none;
+        color: white;
+        position: fixed;
+        right: 0%;
+        padding-right: 30px;
+    }
+
+    .topbar p:hover{
+        color : red;
+        text-decoration: wavy;
+    }
+    .product-list-amazon{
+        position: relative;
+        top:100px;
+    }
+    .product-list-flipkart{
+        position: relative;
+        top: 60px;
+    }
+    .product-list-ebay{
+        position: relative;
+        top: 60px;  
+    }
+    </style>
+  </head>
+  <body>
+    <div class="topbar"><a style="text-decoration: none;color: white;"href="index.html">Shopper's Search</a><a href="" class="topbarlogin">Login</a></div>
+    <div style="height: 40px;"class="dummy"> </div>
+    <div id="product-list-amazon"></div>
+    <div id="product-list-flipkart"></div>
+    <div id="product-list-ebay"></div>
+    <script src="F:/HTML/node_modules/axios/dist/axios.min.js"></script>
+    <script src="bundle.js"></script>
+  </body>
+</html>
